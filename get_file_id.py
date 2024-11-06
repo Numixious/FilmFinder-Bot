@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 # Replace with your bot token from BotFather
-TOKEN = "7683165054:AAGrrx_TrPG1Yl8_gOUBVL1Y6Q_1p3hc7r0"
+TOKEN = "token"
 
 
 async def get_file_id(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
